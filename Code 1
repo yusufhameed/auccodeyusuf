@@ -1,0 +1,10 @@
+lst = [-29, 50, 12, 35]
+if max(lst) == -29:
+    result = "The max is -29."
+if max(lst) == 50:
+    result = "The max is 50."
+if max(lst) == 12:
+    result = "The max is 12."
+if max(lst) == 35:
+    result = "The max is 35."
+print (result)
