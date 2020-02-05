@@ -1,0 +1,8 @@
+lst_a = [1337, 177.013, 666, 13, 412, -6944, -115, 0]
+lst_b = [1337, 177.013, 666, 13, 412, -6944, -115, 0]
+lst_c = []
+for n in lst_a:
+  n = max(lst_b)
+  lst_c.insert(0, n)
+  lst_b.remove(n)
+print(lst_c)
